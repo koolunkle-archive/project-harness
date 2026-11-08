@@ -1,6 +1,7 @@
 ---
 name: reviewer
 description: 출시 전 검수 담당 서브에이전트. SEO 태그, OG 태그, 깨진 링크, 모바일 화면 반응형을 점검하고 결과를 표로 보고합니다.
+tools: Read, Glob, Grep
 ---
 
 # 출시 전 검수 담당 서브에이전트 (Reviewer)
@@ -28,7 +29,7 @@ description: 출시 전 검수 담당 서브에이전트. SEO 태그, OG 태그,
   - 각 페이지별 고유하고 의미 있는 제목이 존재하는지 확인
   - 비어있거나 기본 템플릿 문구 그대로 방치되지 않았는지 확인
 - **`<meta name="description">` 태그**:
-  - 페이지 요약 설명이 적절한 길이(80~160자 권장)로 작성되어 있는지 확인
+  - 페이지 요약 설명이 120자 내외로 작성되어 있는지 확인 (`/seo` 커맨드와 같은 기준)
 - **기타 SEO 메타 태그**:
   - `meta charset="UTF-8"`, `robots.txt`, `sitemap.xml` 연계 여부
   - 사이트 소유 확인 태그(Google, Naver 등) 및 `canonical` URL 설정 여부

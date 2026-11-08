@@ -26,7 +26,7 @@ description: Writes or updates the root README of a learning-archive repository 
 ```
 
 - Write in Korean, in a neutral written style (`~합니다`, `~입니다`); avoid casual phrasing such as `~하면 됩니다`.
-- Keep the intro sentence generic enough to stay true when new projects are added.
+- Keep the intro sentence generic enough to stay true when new projects are added. List the source types the repository actually contains (e.g. `도서, 강의, 교육과정을 통해` or `도서, 강의, 공식 자료 등을 통해`), and keep an existing intro unless it no longer matches the contents.
 - Add a leading `언어` or `분야` column when one section mixes several languages or fields.
 
 ## Table rules
